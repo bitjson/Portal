@@ -2,6 +2,10 @@ import {GlobalStyles} from './Global.styles';
 import {AvatarStyles} from './common/MemberGravatar';
 
 const TriggerButtonStyles = `
+    .gh-portal-triggerbtn-wrapper > .halo {
+        display: none;
+    }
+
     .gh-portal-triggerbtn-wrapper {
         display: inline-flex;
         align-items: flex-start;

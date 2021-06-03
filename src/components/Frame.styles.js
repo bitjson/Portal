@@ -19,6 +19,20 @@ import {PopupNotificationStyles} from './common/PopupNotification';
 
 // Global styles
 const FrameStyles = `
+    .gh-portal-signup-p {
+        margin-bottom: 0;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .gh-portal-signup-subtle {
+        color: var(--grey8);
+    }
+
+    .gh-portal-powered {
+        display: none !important;
+    }
+
     .gh-portal-main-title {
         text-align: center;
         color: var(--grey0);

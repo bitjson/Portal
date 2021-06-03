@@ -354,14 +354,14 @@ class SignupPage extends React.Component {
         const {brandColor, onAction} = this.context;
         return (
             <div className='gh-portal-signup-message'>
-                <div>Already a member?</div>
+                {/* <div>Already a member?</div>
                 <button
                     className='gh-portal-btn gh-portal-btn-link'
                     style={{color: brandColor}}
                     onClick={() => onAction('switchPage', {page: 'signin'})}
                 >
                     <span>Sign in</span>
-                </button>
+                </button> */}
             </div>
         );
     }
@@ -420,6 +420,8 @@ class SignupPage extends React.Component {
             <header className='gh-portal-signup-header'>
                 {this.renderSiteLogo()}
                 <h2 className="gh-portal-main-title">{siteTitle}</h2>
+                <p class="gh-portal-signup-p">Get an email when bitjson posts.</p>
+                <small class="gh-portal-signup-subtle">(usually once every 1-2 months)</small>
             </header>
         );
     }
